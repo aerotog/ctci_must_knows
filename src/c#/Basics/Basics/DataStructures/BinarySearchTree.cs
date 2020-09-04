@@ -9,7 +9,7 @@ namespace Basics.DataStructures
     /// <typeparam name="T"></typeparam>
     public class BinarySearchTree<T> where T : IComparable
     {
-        private TreeNode<T> _root;
+        private TreeNode<T>? _root;
 
         public void Add(T thing)
         {
@@ -54,7 +54,7 @@ namespace Basics.DataStructures
             }
         }
 
-        private bool Contains(T thing, TreeNode<T> node)
+        private bool Contains(T thing, TreeNode<T>? node)
         {
             if (node == null)
             {

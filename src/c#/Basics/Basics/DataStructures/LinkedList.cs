@@ -10,15 +10,15 @@ namespace Basics.DataStructures
         {
         }
 
-        public LinkedList(IEnumerable<T> original)
+        public LinkedList(IEnumerable<T>? original)
         {
             if (original == null) return;
             foreach (var val in original) Add(val);
         }
 
         public int Count { get; private set; }
-        public LinkedListNode<T> First { get; private set; }
-        public LinkedListNode<T> Last { get; private set; }
+        public LinkedListNode<T>? First { get; private set; }
+        public LinkedListNode<T>? Last { get; private set; }
 
         public void Add(T thing)
         {

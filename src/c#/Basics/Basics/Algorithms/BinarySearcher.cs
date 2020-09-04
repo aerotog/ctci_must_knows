@@ -4,7 +4,7 @@ namespace Basics.Algorithms
 {
     public class BinarySearcher
     {
-        public bool Search(int target, int[] list)
+        public bool Search(int target, int[]? list)
         {
             if (list == null)
             {

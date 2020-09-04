@@ -2,11 +2,11 @@
 
 namespace Basics
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Nothing to see here. Run the tests with 'dotnet test'.");
         }
     }
 }

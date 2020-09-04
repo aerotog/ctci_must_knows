@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Immutable;
-using System.Linq;
 
 namespace Basics.DataStructures
 {
     public class Stack<T> : IImmutableStack<T>
     {
-        private LinkedList<T> _list;
+        private readonly LinkedList<T> _list;
 
         public Stack()
             : this(new LinkedList<T>())
@@ -37,7 +36,7 @@ namespace Basics.DataStructures
 
         public T Peek()
         {
-            return _list.Last != null ? _list.Last.Value : default(T);
+            return (_list.Last != null ? _list.Last.Value : default(T))!;
         }
 
         public IImmutableStack<T> Pop()

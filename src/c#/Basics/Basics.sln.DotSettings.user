@@ -1,22 +1,15 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0de88ced_002D787e_002D4423_002D8d9a_002D131cc8dbfc1d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="When_stacking_numbers" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;TestAncestor&gt;&#xD;
-      &lt;TestId&gt;xUnit::BF1BB9A8-257A-43C1-B2E3-E5CE928661F1::.NETCoreApp,Version=v3.1::Basics.Tests.DataStructures.StackTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::BF1BB9A8-257A-43C1-B2E3-E5CE928661F1::.NETCoreApp,Version=v3.1::Basics.Tests.DataStructures.BinarySearchTreeTests&lt;/TestId&gt;&#xD;
-      &lt;TestId&gt;xUnit::BF1BB9A8-257A-43C1-B2E3-E5CE928661F1::.NETCoreApp,Version=v3.1::Basics.Tests.DataStructures.BinaryTreeTests&lt;/TestId&gt;&#xD;
-    &lt;/TestAncestor&gt;&#xD;
-    &lt;Project Location="Z:\_git\mine\ctci_must_knows\src\c#\Basics\Basics.Tests" Presentation="&amp;lt;Basics.Tests&amp;gt;" /&gt;&#xD;
-  &lt;/Or&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=206fc519_002D9f5f_002D4ffc_002Db0b5_002D4bf3ff277cec/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Basics.Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=16a2c02c_002D153a_002D4ad0_002Db3ef_002De21b1db9fb80/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="When_popping_max_from_heap #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;Project Location="Z:\_git\mine\ctci_must_knows\src\c#\Basics\Basics.Tests" Presentation="&amp;lt;Basics.Tests&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76b9cb54_002D413c_002D4d26_002D8994_002D6c3dbc37d770/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="MergeSorterTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="Z:\_git\mine\ctci_must_knows\src\c#\Basics\Basics.Tests" Presentation="&amp;lt;Basics.Tests&amp;gt;" /&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=da60bd95_002D673e_002D4594_002Db94d_002D397d309a0a9e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="StackTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=49778a46_002Db060_002D48db_002D880d_002D6a8960174025/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="When_popping_max_from_heap #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::BF1BB9A8-257A-43C1-B2E3-E5CE928661F1::.NETCoreApp,Version=v3.1::Basics.Tests.DataStructures.StackTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BF1BB9A8-257A-43C1-B2E3-E5CE928661F1::.NETCoreApp,Version=v3.1::Basics.Tests.DataStructures.MaxHeapTests.When_popping_max_from_heap&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a642db38_002Dee0c_002D42fb_002Da274_002D467bb0008401/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	</wpf:ResourceDictionary>

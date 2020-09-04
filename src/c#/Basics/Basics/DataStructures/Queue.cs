@@ -50,7 +50,7 @@ namespace Basics.DataStructures
 
         public T Peek()
         {
-            return _list.First != null ? _list.First.Value : default(T);
+            return (_list.First != null ? _list.First.Value : default(T))!;
         }
 
         public bool IsEmpty => _list.Count == 0;

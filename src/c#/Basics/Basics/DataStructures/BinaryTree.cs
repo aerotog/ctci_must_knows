@@ -9,13 +9,13 @@ namespace Basics.DataStructures
     /// <typeparam name="T"></typeparam>
     public class BinaryTree<T> where T : IComparable
     {
-        private TreeNode<T> _root;
-        private TreeNode<T> _tail;
+        private TreeNode<T>? _root;
+        private TreeNode<T>? _tail;
 
-        public void Add(T thing, TreeNode<T> node = null)
+        public void Add(T thing, TreeNode<T>? node = null)
         {
             var newNode = new TreeNode<T>(thing);
-            if (_root == null)
+            if (_root == null || _tail == null)
             {
                 _root = newNode;
                 _tail = _root;
@@ -58,10 +58,10 @@ namespace Basics.DataStructures
 
         public bool SearchRecursively(T thing)
         {
-            return SearchRecursively(thing, _root);
+            return SearchRecursively(thing, _root!);
         }
 
-        private bool SearchRecursively(T thing, TreeNode<T> node)
+        private bool SearchRecursively(T thing, TreeNode<T>? node)
         {
             if (node == null) return false;
             
@@ -70,7 +70,7 @@ namespace Basics.DataStructures
                 return true;
             }
 
-            return SearchRecursively(thing, node.Left) || SearchRecursively(thing, node.Right);
+            return SearchRecursively(thing, node.Left!) || SearchRecursively(thing, node.Right!);
         }
     }
 }

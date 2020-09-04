@@ -40,13 +40,14 @@
           <e p="LinkedList.cs" t="Include" />
           <e p="LinkedListEnumerator.cs" t="Include" />
           <e p="LinkedListNode.cs" t="Include" />
-          <e p="MinHeap.cs" t="Include" />
+          <e p="MaxHeap.cs" t="Include" />
           <e p="ModalNode.cs" t="Include" />
           <e p="Queue.cs" t="Include" />
           <e p="Stack.cs" t="Include" />
           <e p="TreeNode.cs" t="Include" />
           <e p="Trie.cs" t="Include" />
           <e p="Vector.cs" t="Include" />
+          <e p="VectorEnumerator.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -70,8 +71,10 @@
           <e p="BinarySearchTreeTests.cs" t="Include" />
           <e p="BinaryTreeTests.cs" t="Include" />
           <e p="LinkedListTests.cs" t="Include" />
+          <e p="MaxHeapTests.cs" t="Include" />
           <e p="QueueTests.cs" t="Include" />
           <e p="StackTests.cs" t="Include" />
+          <e p="VectorTests.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

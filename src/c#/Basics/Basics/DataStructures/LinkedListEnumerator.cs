@@ -5,8 +5,8 @@ namespace Basics.DataStructures
 {
     public class LinkedListEnumerator<T> : IEnumerator<T>
     {
-        private LinkedListNode<T> _current;
-        private readonly LinkedList<T> _list;
+        private LinkedListNode<T>? _current;
+        private LinkedList<T>? _list;
 
         public LinkedListEnumerator(LinkedList<T> list)
         {
@@ -21,7 +21,7 @@ namespace Basics.DataStructures
                 return _current != null;
             }
 
-            if (_current == null && _list.First != null)
+            if (_current == null && _list!.First != null)
             {
                 _current = _list.First;
             }
@@ -31,15 +31,16 @@ namespace Basics.DataStructures
 
         public void Reset()
         {
-            _current = _list.First;
+            _current = _list!.First;
         }
 
-        public T Current => _current.Value;
+        public T Current => _current!.Value;
 
-        object IEnumerator.Current => Current;
+        object? IEnumerator.Current => Current;
 
         public void Dispose()
         {
+            _list = null;
             _current = null;
         }
     }

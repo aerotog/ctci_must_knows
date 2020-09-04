@@ -7,8 +7,8 @@ namespace Basics.DataStructures
             Value = value;
         }
 
-        public TreeNode<T> Left { get; set; }
-        public TreeNode<T> Right { get; set; }
+        public TreeNode<T>? Left { get; set; }
+        public TreeNode<T>? Right { get; set; }
         public T Value { get; }
     }
 }

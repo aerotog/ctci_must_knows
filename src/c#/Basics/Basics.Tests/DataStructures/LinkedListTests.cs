@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using Basics.DataStructures;
+﻿using Basics.DataStructures;
 using Xunit;
 
 namespace Basics.Tests.DataStructures
