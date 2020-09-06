@@ -39,15 +39,19 @@ namespace Basics.DataStructures
             {
                 return;
             }
-            
-            if (_heap[current] < _heap[GetLeftChild(current)])
+
+            if (_heap[current] >= _heap[GetLeftChild(current)] &&
+                _heap[current] >= _heap[GetRightChild(current)]) return;
+
+            if (_heap[GetLeftChild(current)] > _heap[GetRightChild(current)])
             {
                 Swap(current, GetLeftChild(current));
                 Heapify(GetLeftChild(current));
+
             }
-            else if (_heap[current] < _heap[GetRightChild(current)])
+            else
             {
-                Swap(current,GetRightChild(current));
+                Swap(current, GetRightChild(current));
                 Heapify(GetRightChild(current));
             }
         }
